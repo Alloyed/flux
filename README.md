@@ -97,7 +97,7 @@ The tween can then be stopped at any point by calling its `:stop()` method.
 ```lua
 tween:stop()
 ```
-This will cause the tween to immediatly be removed from its parent group and
+This will cause the tween to immediately be removed from its parent group and
 will leave its tweened variables at their current values. The tween's
 `oncomplete()` callback is not called.
 
